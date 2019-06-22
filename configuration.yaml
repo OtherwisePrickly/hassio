@@ -1,0 +1,46 @@
+
+# Configure a default setup of Home Assistant (frontend, api, etc)
+default_config:
+discovery:
+
+homeassistant:
+  latitude: !secret latitude
+  longitude: !secret longitude
+  elevation: !secret elevation
+  unit_system: metric
+
+homekit:
+
+# Uncomment this if you are using SSL/TLS, running in Docker container, etc.
+# http:
+#   base_url: example.duckdns.org:8123
+
+# Sensors
+sensor:
+  # Weather prediction
+  - platform: yr
+
+# Text to speech
+tts:
+  - platform: google_translate
+
+group: !include groups.yaml
+automation: !include automations.yaml
+script: !include scripts.yaml
+
+alarm_control_panel:
+  - platform: manual
+    code: !secret alarm_pin_code
+
+konnected:
+  api_host: !secret konnected_api_host
+  access_token: insert-a-random-string-here
+  devices:
+    - id: !secret konnected_mac_address
+      binary_sensors:
+        - pin: 1
+          type: door
+          name: 'Living Room'
+        - pin: 2
+          type: motion
+          name: 'Alex Office'
