@@ -47,3 +47,6 @@ konnected:
         - pin: 2
           type: motion
           name: 'Alex Office'
+        - pin: 5
+          type: motion
+          name 'Hallway'
