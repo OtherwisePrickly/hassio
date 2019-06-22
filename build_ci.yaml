@@ -38,5 +38,6 @@ build_ci:
         Accept: application/vnd.travis-ci.2+json
       value_template: "{{ value_json.builds[0].state }}"
       name: "Travis Build Status"
-      - platform: travisci
-        api_key: b68Yzp5rVps0bDfB7rXaOg
+    # - platform: travisci
+    #   api_key:
+
