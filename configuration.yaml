@@ -8,6 +8,8 @@ homeassistant:
   longitude: !secret longitude
   elevation: !secret elevation
   unit_system: metric
+  packages: 
+    pack_1: !include build_ci.yaml
 
 homekit:
 
