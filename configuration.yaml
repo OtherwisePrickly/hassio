@@ -49,4 +49,7 @@ konnected:
           name: 'Alex Office'
         - pin: 5
           type: motion
-          name 'Hallway'
+          name: 'Hallway'
+      switches:
+        - pin: 8
+          name: 'Alarm Bell'
