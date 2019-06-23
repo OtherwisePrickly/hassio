@@ -12,8 +12,6 @@ homeassistant:
 
 homekit:
 
-system_health:
-
 hacs:
    token: !secret hacs_token
 
