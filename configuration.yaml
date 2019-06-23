@@ -53,4 +53,4 @@ konnected:
           name: 'Hallway'
       switches:
         - pin: 8
-          name: 'Alarm Bell 1'
+          name: 'Alarm Bell 2'
