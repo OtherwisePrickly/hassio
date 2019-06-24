@@ -39,4 +39,4 @@ build_ci:
       value_template: "{{ value_json.builds[0].state }}"
       name: "Travis Build Status"
       - platform: travisci
-        api_key: b68Yzp5rVps0bDfB7rXaOg
+        api_key:
