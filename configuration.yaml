@@ -13,7 +13,7 @@ homeassistant:
 homekit:
 
 hacs:
-   token: !secret hacs_token
+  token: !secret hacs_token
 
 # Uncomment this if you are using SSL/TLS, running in Docker container, etc.
 # http:
