@@ -1,3 +1,5 @@
+default_config:
+
 homeassistant:
   name: Home
   latitude: !secret latitude
