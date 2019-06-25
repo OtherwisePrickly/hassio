@@ -1,9 +1,9 @@
 homekit:
 
-discovery:
-  enable:
-    - dlna_dmr
-    - homekit
+#discovery:
+  #enable:
+    #- dlna_dmr
+    #- homekit
 
 hacs:
   token: !secret hacs_token
