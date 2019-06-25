@@ -1,6 +1,7 @@
 homekit:
 
 discovery:
+  enable:
 
 hacs:
   token: !secret hacs_token
