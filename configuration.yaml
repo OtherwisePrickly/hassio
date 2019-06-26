@@ -59,4 +59,4 @@ konnected:
           name: 'Alarm Bell Ted'
 
 # Components
-group: !include configuration/group.yaml
+group: !include configuration/group
