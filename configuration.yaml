@@ -10,7 +10,7 @@ homeassistant:
   packages: !include_dir_merge_named configuration/package
 
 homekit:
-
+system_health:
 discovery:
 
 hacs:
