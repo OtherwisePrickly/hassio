@@ -59,4 +59,4 @@ konnected:
           name: 'Alarm Bell'
 
 # Components
-group: !include_dir_merge_named configuration/group
+# group: !include_dir_merge_named configuration/group
