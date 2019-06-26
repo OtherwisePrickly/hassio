@@ -9,4 +9,4 @@ build_ci:
       action:
         - service: hassio.addon_start
           data:
-            addon: core_git_pull
+            addon: "core_git_pull"
