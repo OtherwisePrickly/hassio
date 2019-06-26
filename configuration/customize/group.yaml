@@ -1,20 +1,20 @@
 sensor.hacs:
-      hidden: true
+  hidden: true
 
 sensor.wilksj01_hassio_last_build_duration:
-      hidden: true
+  hidden: true
 
 sensor.wilksj01_hassio_last_build_finished_at:
-      hidden:true
+  hidden:true
 
 sensor.wilksj01_hassio_last_build_id:
-      hidden: true
+  hidden: true
 
 sensor.wilksj01_hassio_last_build_started_at:
-      hidden: true
+  hidden: true
 
 sensor.wilksj01_hassio_last_build_state:
-      hidden: true
+  hidden: true
 
 sensor.wilksj01_hassio_state:
-      hidden: true
+  hidden: true
