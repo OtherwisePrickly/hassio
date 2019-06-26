@@ -1,0 +1,10 @@
+travis:
+  name: Travis
+  entities:
+  - sensor.hacs
+  - sensor.wilksj01_hassio_last_build_duration
+  - sensor.wilksj01_hassio_last_build_finished_at
+  - sensor.wilksj01_hassio_last_build_id
+  - sensor.wilksj01_hassio_last_build_started_at
+  - sensor.wilksj01_hassio_last_build_state
+  - sensor.wilksj01_hassio_state
