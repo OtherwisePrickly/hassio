@@ -5,7 +5,7 @@ sensor.wilksj01_hassio_last_build_duration:
   hidden: true
 
 sensor.wilksj01_hassio_last_build_finished_at:
-  hidden:true
+  hidden: true
 
 sensor.wilksj01_hassio_last_build_id:
   hidden: true
