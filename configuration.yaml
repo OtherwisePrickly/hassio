@@ -56,7 +56,7 @@ konnected:
           name: 'Hallway'
       switches:
         - pin: 8
-          name: 'Alarm Bell Ted'
+          name: 'Alarm Bell'
 
 # Components
-group: !include configuration/group
+group: !include_dir_merge_named configuration/group
