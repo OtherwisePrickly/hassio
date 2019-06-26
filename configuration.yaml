@@ -24,6 +24,8 @@ hacs:
 sensor:
   # Weather prediction
   - platform: yr
+  - platform: travisci
+    api_key: !secret travis_api_key
 
 # Text to speech
 tts:
@@ -55,7 +57,3 @@ konnected:
       switches:
         - pin: 8
           name: 'Alarm Bell'
-          
-sensor:
-  - platform: travisci
-    api_key: !secret travis_api_key
