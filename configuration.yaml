@@ -39,7 +39,6 @@ script: !include scripts.yaml
 
 alarm_control_panel:
   - platform: manual
-    code: !secret alarm_pin_code
 
 konnected:
   api_host: !secret konnected_api_host
