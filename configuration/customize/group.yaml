@@ -1,2 +1,3 @@
-group.travis:
+customize_glob:
+ sensor.wilksj01*:
   hidden: true
