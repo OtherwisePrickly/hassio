@@ -1,3 +1,20 @@
-customize_glob:
- sensor.wilksj01*:
-  hidden: true
+sensor.hacs:
+      hidden: true
+
+sensor.wilksj01_hassio_last_build_duration:
+      hidden: true
+
+sensor.wilksj01_hassio_last_build_finished_at:
+      hidden:true
+
+sensor.wilksj01_hassio_last_build_id:
+      hidden: true
+
+sensor.wilksj01_hassio_last_build_started_at:
+      hidden: true
+
+sensor.wilksj01_hassio_last_build_state:
+      hidden: true
+
+sensor.wilksj01_hassio_state:
+      hidden: true
