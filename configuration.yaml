@@ -21,6 +21,7 @@ hacs:
 #   base_url: example.duckdns.org:8123
 
 group:
+  default_view:
   Travis:
     name: Kitchen
     view: false
