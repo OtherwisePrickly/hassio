@@ -23,6 +23,7 @@ hacs:
 group:
   Travis:
     name: Kitchen
+    view: false
     entities:
       - sensor.hacs
       - sensor.wilksj01_hassio_last_build_duration
