@@ -9,13 +9,21 @@ resources:
     type: js
   - url: /customcards/custom_ui/slider-entity-row.js?
     type: js
+  - url: /customcards/custom_ui/alarm_control_panel-card.js?v=1
+    type: js
     
-    
-type: entities
-entities:
-  - light.espurna_41e639
-  - type: custom:slider-entity-row
-    entity: light.kitchen_light
+- type: custom:alarm_control_panel-card
+  entity: alarm_control_panel.alarm
+  title: My Alarm
+  states:
+    - arm_home
+    - arm_away    
+
+- type: entities
+  entities:
+    - light.espurna_41e639
+    - type: custom:slider-entity-row
+      entity: light.kitchen_light
 
 views:
   - title: main
