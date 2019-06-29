@@ -49,6 +49,9 @@ tts:
 #################################################################
 
 
+frontend:
+  javascript_version: latest
+
 lovelace:
   mode: yaml
 
