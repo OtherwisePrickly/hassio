@@ -3,7 +3,9 @@ title: Hassio
 resources:
   - url: /customcards/custom_ui/card-modder.js?
     type: module
-  - url: /customcards/custom_ui/card-tools.js
+  - url: /customcards/custom_ui/card-tools.js?
+    type: js
+  - url: /customcards/custom_ui/popup-card.js?
     type: js
     
     
