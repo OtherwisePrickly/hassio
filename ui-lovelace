@@ -1,4 +1,4 @@
-title: Hassio
+title: Hassio Home
 
 resources:
   - url: /customcards/custom_ui/card-modder.js?
@@ -16,3 +16,8 @@ entities:
   - light.espurna_41e639
   - type: custom:slider-entity-row
     entity: light.kitchen_light
+
+views:
+  - title: main
+    icon: mdi:home-outline
+    cards:
