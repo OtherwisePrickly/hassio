@@ -4,7 +4,7 @@
 #                                                               #
 #################################################################
 
-
+#konnected:
   api_host: !secret konnected_api_host
   access_token: insert-a-random-string-here
   devices:
