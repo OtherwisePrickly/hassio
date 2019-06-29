@@ -1,3 +1,10 @@
+#################################################################
+#                                                               #
+#           Home Assistant Main Configuration File              #
+#                                                               #
+#################################################################
+
+
 default_config:
 
 homeassistant:
@@ -7,8 +14,13 @@ homeassistant:
   elevation: !secret elevation
   unit_system: metric
   
-  packages: !include_dir_merge_named configuration/package
-  customize: !include_dir_merge_named configuration/customize
+  
+#################################################################
+#                                                               #
+#                           Enables                             #
+#                                                               #
+#################################################################
+
 
 homekit:
 
@@ -22,46 +34,29 @@ discovery:
 
 hacs:
   token: !secret hacs_token
-
-# Uncomment this if you are using SSL/TLS, running in Docker container, etc.
-# http:
-#   base_url: example.duckdns.org:8123
-
-# Sensors
-sensor:
-  # Weather prediction
-  - platform: yr
-  - platform: travisci
-    api_key: !secret travis_api_key
-
-# Text to speech
+  
 tts:
   - platform: google_translate
 
-#automation: !include automations.yaml
+
+#################################################################
+#                                                               #
+#                           Includes                            #
+#                                                               #
+#################################################################
+
+
+packages: !include_dir_merge_named configuration/package
+customize: !include_dir_merge_named configuration/customize
+konnected: !include configuration/include/konnected.yaml
+alarm_control_panel: !include configuration/include/alarm.yaml
 script: !include scripts.yaml
+sensor: !include configuration/include/sensor.yaml
 
-alarm_control_panel:
-  - platform: manual
 
-konnected:
-  api_host: !secret konnected_api_host
-  access_token: insert-a-random-string-here
-  devices:
-    - id: !secret konnected_mac_address
-      binary_sensors:
-        - pin: 1
-          type: door
-          name: 'Living Room'
-        - pin: 2
-          type: motion
-          name: 'Alex Office'
-        - pin: 5
-          type: motion
-          name: 'Hallway'
-      switches:
-        - pin: 8
-          name: 'Alarm Bell'
+
+
+
 
 # Components
 # group: !include_dir_merge_named configuration/group
