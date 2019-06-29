@@ -5,4 +5,5 @@
 ####################################################
 
 
+#alarm_control_panel:
   - platform: manual
