@@ -11,4 +11,8 @@ resources:
     type: js
     
     
-    
+type: entities
+entities:
+  - light.espurna_41e639
+  - type: custom:slider-entity-row
+    entity: light.kitchen_light
