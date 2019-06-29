@@ -14,6 +14,9 @@ homeassistant:
   elevation: !secret elevation
   unit_system: metric
   
+  packages: !include_dir_merge_named configuration/package
+  customize: !include_dir_merge_named configuration/customize
+  
   
 #################################################################
 #                                                               #
@@ -46,8 +49,6 @@ tts:
 #################################################################
 
 
-packages: !include_dir_merge_named configuration/package
-customize: !include_dir_merge_named configuration/customize
 konnected: !include configuration/include/konnected.yaml
 alarm_control_panel: !include configuration/include/alarm.yaml
 script: !include scripts.yaml
