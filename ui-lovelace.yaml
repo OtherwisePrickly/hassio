@@ -1,15 +1,15 @@
 title: Hassio Home
 
 resources:
-  - url: /www/custom_ui/card-modder.js?
+  - url: /local/custom_ui/card-modder.js?
     type: module
-  - url: /www/custom_ui/card-tools.js?
+  - url: /local/custom_ui/card-tools.js?
     type: js
-  - url: /www/custom_ui/popup-card.js?
+  - url: /local/custom_ui/popup-card.js?
     type: js
-  - url: /www/custom_ui/slider-entity-row.js?
+  - url: /local/custom_ui/slider-entity-row.js?
     type: js
-  - url: /www/custom_ui/alarm_control_panel-card.js?v=1
+  - url: /local/custom_ui/alarm_control_panel-card.js?v=1
     type: js
     
 
