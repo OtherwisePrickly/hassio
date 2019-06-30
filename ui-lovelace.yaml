@@ -11,7 +11,7 @@ views:
     icon: mdi:home-outline
     cards:
       - type: custom:alarm_control_panel-card
-        entity: alarm_control_panel.alarm
+        entity: alarm_control_panel.ha_alarm
         title: My Alarm
         states:
           - arm_home
