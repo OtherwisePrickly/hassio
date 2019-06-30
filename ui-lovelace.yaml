@@ -1,7 +1,8 @@
 title: Hassio Home
 
 resources:
-  - url: /local/community/lovelace-slider-entity-row/slider-entity-row.js
+  - url: /local/community/lovelace-slider-entity-row/slider-entity-row.js?v=3.0
+    type: module
 
 views:
   - title: main
