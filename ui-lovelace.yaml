@@ -14,10 +14,9 @@ views:
         states:
           - arm_home
           - arm_away    
-
-      - type: entities
-        entities:
-          - light.espurna_41e639
-          - type: custom:slider-entity-row
-            entity: light.kitchen_light
-
+          
+      type: entities
+      entities:
+        - light.espurna_41e639
+        - type: custom:slider-entity-row
+          entity: light.espurna_41e639
