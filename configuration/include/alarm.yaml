@@ -7,3 +7,5 @@
 
 #alarm_control_panel:
   - platform: manual
+    code: 6978
+  
