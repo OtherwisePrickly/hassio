@@ -16,7 +16,7 @@ views:
           - arm_away    
           
       - type: entities
-      entities:
-        - light.espurna_41e639
-        - type: custom:slider-entity-row
-          entity: light.espurna_41e639
+        entities:
+          - light.espurna_41e639
+          - type: custom:slider-entity-row
+            entity: light.espurna_41e639
