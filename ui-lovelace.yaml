@@ -1,19 +1,7 @@
 title: Hassio Home
 
 resources:
-  - url: /local/custom_ui/card-modder.js?
-    type: module
-  - url: /local/custom_ui/card-tools.js?
-    type: js
-  - url: /local/custom_ui/popup-card.js?
-    type: js
-  - url: /local/custom_ui/slider-entity-row.js?
-    type: js
-  - url: /local/custom_ui/alarm_control_panel-card.js?v=1
-    type: js
-    
-
-
+  - url: /community_plugin/lovelace-slider-entity-row/slider-entity-row.js
 
 views:
   - title: main
