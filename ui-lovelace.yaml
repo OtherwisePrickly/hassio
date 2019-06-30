@@ -3,7 +3,7 @@ title: Hassio Home
 resources:
   - url: /local/community/lovelace-slider-entity-row/slider-entity-row.js
     type: module
-  - url: /local/custom_ui/larm_control_panel-card.js?v=1
+  - url: /local/custom_ui/alarm_control_panel-card.js?v=1
     type: js
 
 views:
