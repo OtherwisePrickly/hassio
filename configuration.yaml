@@ -41,7 +41,24 @@ hacs:
 tts:
   - platform: google_translate
 
-
+light:
+  - name: ESPURNA_41E639
+    platform: mqtt
+    state_topic: ESPURNA-41E639/relay/0
+    command_topic: ESPURNA-41E639/relay/0/set
+    payload_on: 1
+    payload_off: 0
+    availability_topic: ESPURNA-41E639/status
+    payload_available: 1
+    payload_not_available: 0
+    brightness_state_topic: ESPURNA-41E639/brightness
+    brightness_command_topic: ESPURNA-41E639/brightness/set
+    rgb_state_topic: ESPURNA-41E639/rgb
+    rgb_command_topic: ESPURNA-41E639/rgb/set
+    color_temp_command_topic: ESPURNA-41E639/mired/set
+    white_value_state_topic: ESPURNA-41E639/channel/3
+    white_value_command_topic: ESPURNA-41E639/channel/3/set
+ 
 #################################################################
 #                                                               #
 #                        Customizations                         #
