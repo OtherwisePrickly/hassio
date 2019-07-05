@@ -5,7 +5,7 @@ resources:
     type: module
   - url: /local/community/fold-entity-row/fold-entity-row.js
     type: module
-  - url: /local/community/alarm_control_panel-card/alarm_control_panel-card.js?v=3
+  - url: /local/community/alarm_control_panel-card/alarm_control_panel-card.js?v=4
     type: js
 
 views:
