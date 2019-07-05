@@ -19,6 +19,6 @@ views:
           
       - type: entities
         entities:
-          - light.espurna_41e639
+          - light.kitchen_led
           - type: custom:slider-entity-row
-            entity: light.espurna_41e639
+            entity: light.kitchen_led
