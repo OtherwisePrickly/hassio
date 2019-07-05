@@ -25,15 +25,11 @@ views:
           - type: custom:slider-entity-row
             entity: light.kitchen_led
             
-      - type: custom:fold-entity-row
-        head:
-          type: section
-          label: Nested
+      - type: entities
         entities:
+          - light.kitchen_led
           - type: custom:fold-entity-row
             head: light.kitchen_led
             entities:
-          - type: custom:slide-entity-row
-            head: light.kitchen_led
-            entities:
+              - type: custom:slider-entity-row
               - light.kitchen_led
