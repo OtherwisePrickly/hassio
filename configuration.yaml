@@ -42,7 +42,8 @@ tts:
   - platform: google_translate
 
 light:
-  - name: Kitchen LED
+  - name: ESPURNA_41E639
+    friendly_name: "Kitchen LED"
     platform: mqtt
     state_topic: ESPURNA-41E639/relay/0
     command_topic: ESPURNA-41E639/relay/0/set
