@@ -5,7 +5,7 @@ resources:
     type: module
   - url: /local/community/fold-entity-row/fold-entity-row.js
     type: module
-  - url: /local/community/alarm_control_panel-card/alarm_control_panel-card.js?v=4
+  - url: /local/community/alarm_control_panel-card/alarm_control_panel-card.js?v=5
     type: js
 
 views:
@@ -13,8 +13,10 @@ views:
     icon: mdi:home-outline
     cards:
       - type: custom:alarm_control_panel-card
-        entity: alarm_control_panel.alarm
+        entity: alarm_control_panel.ha_alarm
+        show_keypad: true
         title: My Alarm
+        style: '--alarm-color-disarmed: var(--label-badge-blue);'
         states:
           - arm_home
           - arm_away
