@@ -21,13 +21,6 @@ views:
         states:
           - arm_home
           - arm_away
-
-      - type: custom:alarm_control_panel-card
-        entity: alarm_control_panel.ha_alarm
-        title: My Alarm
-        states:
-          - arm_home
-          - arm_away    
           
       - type: entities
         entities:
