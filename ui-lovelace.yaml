@@ -27,7 +27,6 @@ views:
             
       - type: entities
         entities:
-          - light.kitchen_led
           - type: custom:fold-entity-row
             head: light.kitchen_led
             entities:
