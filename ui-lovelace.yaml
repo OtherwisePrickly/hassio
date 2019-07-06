@@ -48,6 +48,6 @@ views:
             head: light.kitchen_led
             entities:
               - type: custom:fold-entity-row
-                head: light.bed_light
+                head: light.kitchen_led
                 entities:
-                  - light.bed_light
+                  - light.kitchen_led
