@@ -17,6 +17,7 @@ views:
   - title: Kiosk
     icon: mdi:home-outline
     id: kiosk_alarm-panel
+    panel: true
     cards:
       - type: alarm-panel
         entity: alarm_control_panel.ha_alarm
