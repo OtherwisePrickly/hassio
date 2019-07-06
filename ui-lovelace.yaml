@@ -14,7 +14,7 @@ resources:
   - url: /local/community/lovelace-popup-card/lovelace-popup-card.js?track=true
 
 views:
-  - title: main
+  - title: Kiosk
     icon: mdi:home-outline
     id: kiosk_alarm-panel
     cards:
