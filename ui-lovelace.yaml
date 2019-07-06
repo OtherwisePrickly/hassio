@@ -41,18 +41,5 @@ views:
                 head: light.kitchen_led
                 entities:
                   - type: custom:slider-entity-row
-                  - entity: light.kitchen_led
+                    entity: light.kitchen_led
       
-
-          - type: custom:fold-entity-row
-            head:
-            type: section
-            label: Nested
-            entities:
-              - type: custom:slider-entity-row
-                head: light.kitchen_led
-                entities:
-                  - type: custom:fold-entity-row
-                    head: light.kitchen_led
-                    entities:
-                      - light.kitchen_led
