@@ -16,40 +16,43 @@ resources:
 views:
   - title: Kiosk
     icon: mdi:home-outline
+    panel: true
     cards:
-      - type: alarm-panel
-        entity: alarm_control_panel.ha_alarm
-        show_keypad: true
-        title: My Alarm
-        style: '--alarm-color-disarmed: var(--label-badge-blue);'
-        states:
-          - arm_home
-          - arm_away
+      - type: vertical-stack
+        cards:
+          - type: alarm-panel
+            entity: alarm_control_panel.ha_alarm
+            show_keypad: true
+            title: My Alarm
+            style: '--alarm-color-disarmed: var(--label-badge-blue);'
+            states:
+              - arm_home
+              - arm_away
           
-      - type: entities
-        entities:
-          - light.kitchen_led
-          - type: custom:slider-entity-row
-            entity: light.kitchen_led
-            
-      - type: entities
-        entities:
-          - type: custom:fold-entity-row
-            head: light.kitchen_led
+          - type: entities
             entities:
+              - light.kitchen_led
               - type: custom:slider-entity-row
-              - entity: light.kitchen_led
-      
-
-      - type: custom:fold-entity-row
-        head:
-          type: section
-          label: Nested
-        entities:
-          - type: custom:slider-entity-row
-            head: light.kitchen_led
+                entity: light.kitchen_led
+            
+          - type: entities
             entities:
               - type: custom:fold-entity-row
                 head: light.kitchen_led
                 entities:
-                  - light.kitchen_led
+                  - type: custom:slider-entity-row
+                  - entity: light.kitchen_led
+      
+
+          - type: custom:fold-entity-row
+            head:
+            type: section
+            label: Nested
+            entities:
+              - type: custom:slider-entity-row
+                head: light.kitchen_led
+                entities:
+                  - type: custom:fold-entity-row
+                    head: light.kitchen_led
+                    entities:
+                      - light.kitchen_led
