@@ -15,7 +15,7 @@ views:
   - title: main
     icon: mdi:home-outline
     cards:
-      - type: custom:alarm_control_panel-card
+      - type: alarm-panel
         entity: alarm_control_panel.ha_alarm
         show_keypad: true
         title: My Alarm
