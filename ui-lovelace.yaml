@@ -1,6 +1,8 @@
 title: Grange Road
 
 resources:
+  - url: /local/community/kiosk/kiosk.js
+    type: js
   - url: /local/community/lovelace-slider-entity-row/slider-entity-row.js
     type: module
   - url: /local/community/fold-entity-row/fold-entity-row.js?track=true
@@ -14,6 +16,7 @@ resources:
 views:
   - title: main
     icon: mdi:home-outline
+    id: kiosk_alarm-panel
     cards:
       - type: alarm-panel
         entity: alarm_control_panel.ha_alarm
