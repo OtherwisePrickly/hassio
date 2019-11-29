@@ -7,5 +7,5 @@
 
 #alarm_control_panel:
   - platform: manual
-    !secret alarm_pin_code
+    code: !secret alarm_pin_code
   
