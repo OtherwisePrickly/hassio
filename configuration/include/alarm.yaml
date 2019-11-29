@@ -7,5 +7,5 @@
 
 #alarm_control_panel:
   - platform: manual
-    code: 6978
+    !secret alarm_pin_code
   
