@@ -49,11 +49,11 @@ light:
     platform: mqtt
     state_topic: ESPURNA-41E639/relay/0
     command_topic: ESPURNA-41E639/relay/0/set
-    payload_on: 1
-    payload_off: 0
+    payload_on: 0
+    payload_off: 1
     availability_topic: ESPURNA-41E639/status
-    payload_available: 1
-    payload_not_available: 0
+    payload_available: 0
+    payload_not_available: 1
     brightness_state_topic: ESPURNA-41E639/brightness
     brightness_command_topic: ESPURNA-41E639/brightness/set
     rgb_state_topic: ESPURNA-41E639/rgb
