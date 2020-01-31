@@ -61,6 +61,7 @@ tts:
 #    color_temp_command_topic: ESPURNA-41E639/mired/set
 #    white_value_state_topic: ESPURNA-41E639/channel/3
 #    white_value_command_topic: ESPURNA-41E639/channel/3/set
+# test
  
 
 light:
