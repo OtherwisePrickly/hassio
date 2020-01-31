@@ -65,7 +65,7 @@ tts:
  
 
 light:
-  - name: ESPURNA_41E639
+  - name: ESPURNA_41E639_James
     platform: mqtt
     state_topic: ESPURNA-41E639/relay/0
     command_topic: ESPURNA-41E639/relay/0/set
