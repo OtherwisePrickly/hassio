@@ -43,11 +43,10 @@ hacs:
   
 tts:
   - platform: google_translate
-
-service: tts.google_say
-entity_id: media_player.forked_daapd_output_james_s_airport_express
-data:
-  message: 'May the Force be with you.'
+    service: tts.google_say
+    entity_id: media_player.forked_daapd_output_james_s_airport_express
+    data:
+      message: 'May the Force be with you.'
 
 light:
   - name: "Kitchen LED"
