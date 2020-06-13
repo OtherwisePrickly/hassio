@@ -44,7 +44,7 @@ hacs:
 tts:
   - platform: google_translate
     serivce_name: google_translate_say
-    base_url: 192.168.3.44:8123
+    base_url: http://192.168.3.44:8123
     
 #action:
 #      service: tts.google_translate_say
