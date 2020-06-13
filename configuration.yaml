@@ -41,7 +41,7 @@ discovery:
 hacs:
   token: !secret hacs_token
 
-mediaplayer:
+media_player:
   
 tts:
   - platform: google_translate
