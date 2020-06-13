@@ -40,6 +40,8 @@ discovery:
 
 hacs:
   token: !secret hacs_token
+
+mediaplayer:
   
 tts:
   - platform: google_translate
