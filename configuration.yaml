@@ -75,6 +75,10 @@ light:
     white_value_state_topic: ESPURNA-41E639/channel/3
     white_value_command_topic: ESPURNA-41E639/channel/3/set
 
+media_player:
+  - platform: forked-daapd
+    host: 192.168.3.44
+    port: 3689
 
 #################################################################
 #                                                               #
