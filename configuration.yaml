@@ -41,15 +41,6 @@ discovery:
 hacs:
   token: !secret hacs_token
 
-media_player:
-  
-tts:
-  - platform: google_translate
-    cache: true
-    cache_dir: /tmp/tts
-    time_memory: 300
-    service_name: google_say
-    base_url: http://192.168.3.44:8123
     
 #action:
 #      service: tts.google_translate_say
