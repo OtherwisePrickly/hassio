@@ -48,11 +48,6 @@ hacs:
 #      data:
 #        message: 'May the Force be with you.'
 
-- type: entities
-  entities:
-    - switch.alarm_bell
-    - binary_sensor.cellar
-
 light:
   - name: "Kitchen LED"
     platform: mqtt
