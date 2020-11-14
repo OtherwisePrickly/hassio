@@ -12,7 +12,7 @@
       binary_sensors:
         - pin: 1
           type: door
-          name: 'Living Room'
+          name: 'Cellar'
         - pin: 2
           type: motion
           name: 'Alex Office'
