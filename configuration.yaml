@@ -87,7 +87,7 @@ lovelace:
 #################################################################
 
 
-konnected: !include configuration/include/konnected.yaml
+#konnected: !include configuration/include/konnected.yaml
 alarm_control_panel: !include configuration/include/alarm.yaml
 script: !include scripts.yaml
 sensor: !include configuration/include/sensor.yaml
