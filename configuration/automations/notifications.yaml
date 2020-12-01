@@ -1,4 +1,4 @@
-automation:
+#automation:
 # Turns on lights 1 hour before sunset if people are home
 # and if people get home between 16:00-23:00
 
