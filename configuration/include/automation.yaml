@@ -1,5 +1,12 @@
+#################################################################
+#                                                               #
+#           Home Assistant Top Level Automation File            #
+#                                                               #
+#################################################################
+
+
 # This handles the loading of my automations
 #
 # https://www.home-assistant.io/docs/automation/
 #
-automation split: !include_dir_list ../include/automations
+automation: !include_dir_list ../include/automations
