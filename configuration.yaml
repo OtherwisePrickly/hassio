@@ -91,16 +91,20 @@ konnected: !include configuration/include/konnected.yaml
 alarm_control_panel: !include configuration/include/alarm.yaml
 script: !include scripts.yaml
 sensor: !include configuration/include/sensor.yaml
-automation: !include_dir_list /configuration/automations/
-
-logger:
-  logs:
-    RFXtrx: debug
 
 
-
-
-
+automation:
+  - alias: 'Remove new devices notification'
+    trigger:
+      - platform: state
+        entity_id: persistent_notification.config_entry_discovery
+        to: notifying
+      - platform: homeassistant
+        event: start
+    action:
+      - service: persistent_notification.dismiss
+        data:
+          notification_id: config_entry_discovery
 
 # Components
 # group: !include_dir_merge_named configuration/group
