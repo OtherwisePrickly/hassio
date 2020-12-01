@@ -29,8 +29,8 @@ views:
               - arm_home
               - arm_away
                      
-          - type: entities
-            entities:
+#          - type: entities
+#            entities:
 #              - type: custom:fold-entity-row
 #                head: light.kitchen_led
 #                entities:
