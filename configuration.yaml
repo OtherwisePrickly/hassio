@@ -91,7 +91,7 @@ konnected: !include configuration/include/konnected.yaml
 alarm_control_panel: !include configuration/include/alarm.yaml
 script: !include scripts.yaml
 sensor: !include configuration/include/sensor.yaml
-automation: !include configuration/include/automation.yaml
+automation: !include_dir_merge_name configuration/automations
 
 logger:
   logs:
