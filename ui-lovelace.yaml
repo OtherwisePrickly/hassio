@@ -15,13 +15,13 @@ resources:
 
 views:
   - title: Kiosk
-    icon: mdi:home-outline
+    icon: mdi:shield-key
     panel: true
     cards:
       - type: vertical-stack
         cards:
           - type: alarm-panel
-          - name: 
+            name: 
             entity: alarm_control_panel.ha_alarm
             show_keypad: true
             #title: Keypad
