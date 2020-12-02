@@ -37,4 +37,4 @@ views:
 #                  - type: custom:slider-entity-row
 #                    entity: light.kitchen_led
       
-#
+
