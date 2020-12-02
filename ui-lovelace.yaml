@@ -22,7 +22,7 @@ views:
         cards:
           - type: alarm-panel
             entity: alarm_control_panel.ha_alarm
-            name:
+            name: 
             show_keypad: true
             #title: Keypad
             style: '--alarm-color-disarmed: var(--label-badge-blue);'
@@ -38,5 +38,5 @@ views:
 #                entities:
 #                  - type: custom:slider-entity-row
 #                    entity: light.kitchen_led
-      
+#
 
