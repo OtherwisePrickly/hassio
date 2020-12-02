@@ -1,4 +1,4 @@
-title: Grange Road
+title: Security
 
 resources:
   - url: /local/kiosk.js
@@ -23,7 +23,7 @@ views:
           - type: alarm-panel
             entity: alarm_control_panel.ha_alarm
             show_keypad: true
-            title: My Alarm
+            #title: Keypad
             style: '--alarm-color-disarmed: var(--label-badge-blue);'
             states:
               - arm_home
