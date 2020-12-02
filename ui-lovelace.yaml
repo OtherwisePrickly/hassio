@@ -22,12 +22,14 @@ views:
         cards:
           - type: alarm-panel
             entity: alarm_control_panel.ha_alarm
+            name:
             show_keypad: true
             #title: Keypad
             style: '--alarm-color-disarmed: var(--label-badge-blue);'
             states:
               - arm_home
               - arm_away
+              - arm_night
                      
 #          - type: entities
 #            entities:
