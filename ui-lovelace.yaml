@@ -15,7 +15,7 @@ resources:
 
 views:
   - title: Kiosk
-    icon: mdi:shield-key
+    icon: mdi-shield-key
     panel: true
     cards:
       - type: vertical-stack
