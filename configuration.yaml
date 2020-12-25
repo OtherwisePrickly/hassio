@@ -42,6 +42,15 @@ hacs:
   token: !secret hacs_token
 
     
+media_player:
+ - platform:  skyq
+   name: SkyQ Living Room
+   host: 192.168.0.10
+   live_tv: True
+   sources:
+      SkyOne: '1,0,6'
+      SkyNews: '5,0,1'
+      
 #action:
 #      service: tts.google_translate_say
 #      entity_id: media_player.forked_daapd_output_james_s_airport_express
