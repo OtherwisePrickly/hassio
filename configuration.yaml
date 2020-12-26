@@ -37,6 +37,16 @@ ios:
 cloud:
 
 discovery:
+
+media_player:
+ - platform:  skyq
+   name: SkyQ Living Room
+   host: 192.168.10.85
+   live_tv: True
+   sources:
+      SkyOne: '1,0,6'
+      SkyNews: '5,0,1'
+
   
       
 #action:
