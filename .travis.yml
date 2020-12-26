@@ -3,10 +3,12 @@ cache: pip
 python:
   - '3.5'
 
-for file in $(find custom_components/ -name "manifest.json"); do cat "$file" | for req in $(jq .requirements[]); do python3 -m pip install $(echo "$req" | jq -r .) ; done ; done
-  
+https://github.com/RogerSelwyn/Home_Assistant_SkyQ_MediaPlayer.git
 install:
   - 'pip3 install homeassistant'
+  - git clone https://github.com/RogerSelwyn/Home_Assistant_SkyQ_MediaPlayer.git skyq/
+  - mv skyq/custom_components config/custom_components
+
 
 script:
   - 'mv secrets.yaml.sample secrets.yaml'
