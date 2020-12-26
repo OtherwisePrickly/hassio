@@ -2,7 +2,8 @@ language: python
 cache: pip
 python:
   - '3.5'
-  - sed -e '/hacs/,+2d' < configuration.yaml > configuration.yaml
+
+for file in $(find custom_components/ -name "manifest.json"); do cat "$file" | for req in $(jq .requirements[]); do python3 -m pip install $(echo "$req" | jq -r .) ; done ; done
   
 install:
   - 'pip3 install homeassistant'
