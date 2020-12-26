@@ -5,7 +5,7 @@ python:
 
 install:
   - git clone https://github.com/RogerSelwyn/Home_Assistant_SkyQ_MediaPlayer.git skyq/
-  - mv skyq/custom_components config/ustom_components
+  - mv skyq/custom_components config/custom_components
   - 'pip3 install homeassistant'
 
 script:
