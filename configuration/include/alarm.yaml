@@ -8,3 +8,4 @@
 #alarm_control_panel:
   - platform: manual
     code: !secret alarm_pin_code
+    arming_time: 10
