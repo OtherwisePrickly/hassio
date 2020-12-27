@@ -81,7 +81,6 @@ media_player:
 
 
 frontend:
-  javascript_version: latest
   themes: !include_dir_merge_named configuration/themes
 
 lovelace:
