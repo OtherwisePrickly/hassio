@@ -7,6 +7,5 @@
 
 #sensor:
   # Weather prediction
-  - platform: yr
   - platform: travisci
     api_key: !secret travis_api_key
