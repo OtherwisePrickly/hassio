@@ -3,10 +3,12 @@ cache: pip
 python:
   - '3.5'
 
+before_install:
+
+- sed -e '/hacs/,+2d' < configuration.yaml > configuration.yaml
+
 install:
   - 'pip3 install homeassistant'
-  - git clone https://github.com/RogerSelwyn/Home_Assistant_SkyQ_MediaPlayer.git skyq/
-  - mv skyq/custom_components custom_components
 
 script:
   - 'mv secrets.yaml.sample secrets.yaml'
