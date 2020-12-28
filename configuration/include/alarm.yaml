@@ -7,5 +7,4 @@
 
 #alarm_control_panel:
   - platform: manual
-    code: 1234
 
