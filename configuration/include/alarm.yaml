@@ -8,5 +8,5 @@
 #alarm_control_panel:
   - platform: manual
   - pending_time: 30
-    code: !secret alarm_pin_code
+    code: "0989"
     arming_time: 10
