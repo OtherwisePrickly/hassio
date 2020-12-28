@@ -7,6 +7,5 @@
 
 #alarm_control_panel:
   - platform: manual
-  - pending_time: 30
-    code: “0989”
-    arming_time: 10
+    code: 1234
+
