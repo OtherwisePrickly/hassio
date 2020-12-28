@@ -28,7 +28,6 @@ homeassistant:
 homekit:
   entity_config:
     alarm_control_panel.ha_alarm:
-      code: !secret alarm_pin_code
 
 system_health:
 
