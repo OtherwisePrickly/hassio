@@ -7,5 +7,6 @@
 
 #alarm_control_panel:
   - platform: manual
+  - pending_time: 30
     code: !secret alarm_pin_code
     arming_time: 10
