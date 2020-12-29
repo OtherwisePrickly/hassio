@@ -8,7 +8,7 @@ views:
       - type: vertical-stack
         cards:
           - type: alarm-panel
-            name: Tesr           
+            name: Test         
             entity: alarm_control_panel.ha_alarm
             show_keypad: true
             #title: Keypad
