@@ -7,6 +7,5 @@
 
 #alarm_control_panel:
   - platform: manual
-    name: Home Alarm
     code: '1234'
 
